@@ -7,7 +7,15 @@ Use this repository for when you want to start a new modular JavaScript applicat
 1. `sandwichMaker.js` - Exports an object with a single method named `placeOrder()`
 1. `main.js` - Contains the logic of your application. It imports the other three modules, and invokes all of the functions.
 
-## Setup
+## Prerequisites for Everyone
+
+Run this first
+
+```sh
+npm i -g cross-env
+```
+
+## Project Setup
 
 1. Clone this repository.
 1. `cd browserify-boilerplate/src/lib`
